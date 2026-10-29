@@ -12,5 +12,6 @@
       "extensions": ["ms-python.python", "ms-python.debugpy"]
     }
   },
-  "postCreateCommand": "bash .devcontainer/postCreate.sh"
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "postStartCommand": "python --version && python src/hello.py"
 }
